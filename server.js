@@ -14,8 +14,8 @@ app.use(bodyParser.json());
 // GET /todos?completed=true&q=work
 
 app.get('/todos', function (req, res) {
-	var queryParams = req.query;
-	var filteredTodos = todos;	
+		var queryParams = req.query;
+		var filteredTodos = todos;	
 
 	// check completed query parameter exist or not
 
